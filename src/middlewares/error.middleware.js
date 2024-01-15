@@ -9,4 +9,4 @@ const errorMiddleware = (err, _req, res, _next) => {
   });
 };
 
-export default errorMiddleware;
+export { errorMiddleware };
